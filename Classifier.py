@@ -94,7 +94,7 @@ print(classification_report(y_test, predictions))
 # Confusion Matrix and HeatMap Generation
 mat = confusion_matrix(np.asarray(y_test.values.argmax(
     axis=1)), np.asarray(predictions.argmax(axis=1)))
-sns.heatmap(mat.T, square=True, annot=True, fmt='d', cbar=False)
+sns.heatmap(mat.T, square=True, annot=True, fmt='d', cbar=False ,xticklabels=categories, yticklabels=categories)
 plt.xlabel('true label')
 plt.ylabel('predicted label')
 plt.show()
