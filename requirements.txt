@@ -1,0 +1,13 @@
+pandas== 2.0.1 
+numpy==1.24.3
+seaborn==0.12.2
+nltk==3.8.1
+scikit-learn==1.2.2
+scikit-multilearn==0.2.0
+requests==2.31.0 
+ujson==5.7.0 
+webdriver-manager==3.8.6
+BeautifulSoup==3.2.2
+lxml==4.9.2 
+selenium==4.9.1 
+
